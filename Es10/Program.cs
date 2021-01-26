@@ -16,7 +16,7 @@ namespace Es10
             ClasseArray.Riempimento(vf);
             Console.WriteLine("vuoi stapare l'array da destra a sinista digita DS;\nse vuoi stamparlo da sinistra a destra SD");
             string destra_Sinistra = Console.ReadLine();
-            if (destra_Sinistra == "DS"|| destra_Sinistra == "Ds"|| destra_Sinistra == "ds")
+            if (destra_Sinistra == "DS" || destra_Sinistra == "Ds" || destra_Sinistra == "ds")
                 dS = true;
             ClasseArray.OrdineStampa(dS);
                 
